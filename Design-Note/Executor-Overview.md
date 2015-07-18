@@ -12,7 +12,7 @@ Executor 是一个利用 Telegram-CLI 作为后端的规则执行者。
 
 ### 添加用户
 
-1. 检查Ban List
+1. 检查Ban List【交给数据库模块执行】
 2. 使用CLI指令：`chat_add_user <chat> <user> [msgs-to-forward]`
 3. 结束返回
 
@@ -46,4 +46,11 @@ TODO
 
 ### 加入事件
 
-TODO
+1. 检查Ban List【交给数据库模块执行】
+2. 结束返回
+
+### 更改群名事件
+
+1. 输出上次群名
+2. 检查保护是否打开，执行保护操作
+3. 结束返回
