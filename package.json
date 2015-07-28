@@ -1,10 +1,10 @@
 {
-  "name": "orz-telegram-bot",
+  "name": "PeaceManager",
   "version": "0.1.0",
-  "description": "This is a IRC-Telegram Bridge for ##Orz",
+  "description": "A bot to manage groupchats.",
   "author": "Jianshu Wang",
   "bin": {
-    "ircbot": "./main.js"
+    "main": "./index.js"
   },
   "dependencies": {
     "telegram-bot": "^0.2.0"
